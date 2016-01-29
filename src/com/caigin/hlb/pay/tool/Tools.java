@@ -36,7 +36,7 @@ public class Tools
      * @param encode 是否需要urlEncode
      * @return 拼接后字符串
      */
-    public static String createLinkString(Map<String, String> params, boolean encode) {
+  public static String createLinkString(Map<String, String> params, boolean encode) {
         List<String> keys = new ArrayList<String>(params.keySet());
         Collections.sort(keys);
         String prestr = "";
